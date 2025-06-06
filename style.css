@@ -86,6 +86,10 @@ body{
   transform: scale(1.25);      
 }
 
+.attri{
+    text-align: center;
+}
+
 @media (max-width: 767px) {
   .pfpimg {
     height: 100px;
