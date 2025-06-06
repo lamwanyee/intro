@@ -1,0 +1,132 @@
+.pfpimg {
+  border-radius: 50%;
+  height:140px;
+  width:140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.name {
+     font-family: "Edu NSW ACT Cursive", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+body{
+    background-image: url('images/bgimg2.jpg'); 
+    background-size: cover;
+}
+.font1{
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.starter{
+    text-align: center;
+}
+.flexbox{
+    display:flex;
+    justify-content:center
+}
+
+.items{
+    height:35px;
+    width:35px;
+    margin-right: 30px;
+}
+.box-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid  #78a2d6;
+  border-radius: 10px;
+  padding: 20px 28px;                          
+  background-color: rgba(200, 200, 200, 0.2);  
+  width: fit-content;
+  font-family: sans-serif;
+  box-shadow: none;
+  width: 456px;                     
+  margin: 30px auto;       
+}
+
+.icon {
+  width: 56px;    
+  height: 56px;
+  margin-right: 16px;
+  border-radius: 25%;
+}
+
+.box-text {
+  font-size: 16px;  
+  color: #000;
+}
+
+.box-text strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 18px;  
+}
+.image-row {
+  display: flex;
+  justify-content: center;    
+  align-items: center;
+  gap: 31px;                   
+  padding: 20px 0;
+}
+
+.rounded-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 20px;         
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease;
+}
+
+.rounded-image:hover {
+  transform: scale(1.25);      
+}
+
+@media (max-width: 767px) {
+  .pfpimg {
+    height: 100px;
+    width: 100px;
+  }
+
+  .box-container {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    padding: 16px;
+    margin: 20px auto;
+  }
+
+  .box-text {
+    font-size: 14px;
+  }
+
+  .box-text strong {
+    font-size: 16px;
+  }
+
+  .image-row {
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 12px 0;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .rounded-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .items {
+    height: 28px;
+    width: 28px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+
