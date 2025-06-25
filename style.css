@@ -133,12 +133,12 @@ body{
     flex-wrap: wrap;
     gap: 16px;
     padding: 12px 0;
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .rounded-image {
-    width: 70px;
-    height: 70px;
+    width: 63px;
+    height: 63px;
   }
 
   .items {
