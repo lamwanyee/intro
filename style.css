@@ -30,19 +30,25 @@ body{
     justify-content:center
 }
 .iconss{
-  height:70px;
-  width:70px;
+  height:80px;
+  width:80px;
 }
 .iconss1{
-  width:83px;
-  height:83px;
+  width:95px;
+  height:95px;
 }
 
 .items{
     height:35px;
     width:35px;
     margin-right: 25px;
-    margin-bottom:15px;
+    margin-bottom:20px;
+}
+.items1{
+    height:35px;
+    width:35px;
+    margin-right: 45px;
+    margin-bottom: 20px;
 }
 .box-container {
   display: flex;
